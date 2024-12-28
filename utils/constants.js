@@ -25,17 +25,17 @@ export const navLinks = [
 export const socialLinks = [
   {
     href: 'https://www.instagram.com/',
-    src: '/images/icon-instagram.svg',
+    src: '/svg/icon-instagram.svg',
     alt: 'Instagram',
   },
   {
     href: 'https://www.facebook.com/',
-    src: '/images/icon-facebook.svg',
+    src: '/svg/icon-facebook.svg',
     alt: 'Facebook',
   },
   {
     href: 'https://www.twitter.com/',
-    src: '/images/icon-twitter.svg',
+    src: '/svg/icon-twitter.svg',
     alt: 'Twitter',
   }
 ];
