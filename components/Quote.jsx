@@ -8,9 +8,9 @@ const ThinLine = () => (
 
 const Quote = () => {
   return (
-    <section className="relative mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+    <section className="relative mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 md:mb-40">
       {/* Background Image */}
-      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70" style={ { backgroundImage: "url('/images/quote_bg.png')" } }></div>
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70 rounded-md" style={ { backgroundImage: "url('/images/quote_bg.png')" } }></div>
       {/* Content */}
       <div className="relative z-10 container grid grid-cols-1 md:grid-cols-2 gap-4 px-4 py-20 mx-auto text-center text-white">
         <div className='relative col-span-1 md:col-span-1 my-auto mx-4'>
