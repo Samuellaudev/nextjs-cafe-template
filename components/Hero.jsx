@@ -12,7 +12,7 @@ const Hero = () => {
         {/* Left-side - video */ }
         <video
           muted loop autoPlay playsInline
-          className='absolute top-6 left-8 w-[19rem] h-auto object-cover opacity-90 mx-auto rounded-md shadow-md border-8 border-white'
+          className='absolute top-6 left-8 w-[18.6rem] h-auto object-cover opacity-90 mx-auto rounded-md shadow-md border-2 border-gray-300'
         >
           <source src="/video/filter_coffee_hero.mp4" type="video/mp4" />
           Your browser does not support the video tag.
