@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Quote from "@/components/Quote";
 import Menu from "@/components/Menu";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Quote />
       <Menu />
+      <Contact />
     </>
   );
 }
