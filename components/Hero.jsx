@@ -12,7 +12,7 @@ const Hero = () => {
         {/* Left-side - video */ }
         <video
           muted loop autoPlay playsInline
-          className='absolute top-6 left-8 w-[19.8rem] h-auto object-cover opacity-90 mx-auto rounded-md shadow-md border-8 border-white'
+          className='absolute top-6 left-8 w-[19rem] h-auto object-cover opacity-90 mx-auto rounded-md shadow-md border-8 border-white'
         >
           <source src="/video/filter_coffee_hero.mp4" type="video/mp4" />
           Your browser does not support the video tag.
@@ -33,13 +33,13 @@ const Hero = () => {
           </div>
           <div className="absolute mt-36 inset-0 bg-black/50 rounded-md"></div>
           <div className="relative mt-36 z-10 py-10 px-4">
-            <h2 className="font-extralight text-3xl md:text-5xl">
+            <h2 className="font-light text-3xl md:text-5xl">
               Experience the Perfect Brew
             </h2>
-            <h2 className="font-extralight text-3xl md:text-5xl">
+            <h2 className="font-light text-3xl md:text-5xl">
               Your Daily Coffee Fix
             </h2>
-            <p className="font-thin mt-4">
+            <p className="font-extralight mt-4">
               Savor the rich aroma of freshly brewed coffee, from bold espressos to smooth cappuccinos. Experience passion and tradition in every cup, crafted from the finest handpicked beans.
             </p>
           </div>
