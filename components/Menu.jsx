@@ -1,8 +1,8 @@
 const Menu = () => {
   return (
-    <section className="relative mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 md:mb-40 bg-white rounded-md">
+    <section className="relative mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 md:mb-40 bg-white md:rounded-md">
       {/* Background Image */ }
-      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70 rounded-md" style={ { backgroundImage: "url('/images/bg_menu.png')" } }></div>
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70 md:rounded-md" style={ { backgroundImage: "url('/images/bg_menu.png')" } }></div>
       {/* Content */}
       <div className="relative z-10 container px-4 py-20 mx-auto text-white border border-gray-300 p-6 rounded-md shadow-md">
         <div className="relative lg:flex">
@@ -22,7 +22,7 @@ const Menu = () => {
             { menuItems.map(({ name, price }, index) => (
               <div key={ index }>
                 <div className="flex mt-2 md:mt-0 justify-between text-gray-700">
-                  <div className="font-medium text-lg uppercase">{ name }</div>
+                  <div className="font-medium md:text-lg uppercase">{ name }</div>
                   <p className="">{ price }</p>
                 </div>
                 <div className="mt-2 w-full h-[0.5px] bg-gray-500/70"></div>
