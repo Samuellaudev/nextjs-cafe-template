@@ -12,7 +12,7 @@ const Quote = () => {
       {/* Background Image */ }
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70 rounded-md" style={ { backgroundImage: "url('/images/quote_bg.png')" } }></div>
       {/* Content */ }
-      <div className="relative z-10 container grid grid-cols-1 md:grid-cols-2 gap-4 px-4 py-20 mx-auto text-center text-white">
+      <div className="relative z-10 container grid grid-cols-1 md:grid-cols-2 gap-4 px-4 py-20 mx-auto text-center text-white border border-gray-300 p-6 rounded-md shadow-md">
         <div className='relative col-span-1 md:col-span-1 my-auto mx-4'>
           <div className="absolute inset-0 bg-gray-300/70 rounded-md shadow-md backdrop-blur-sm"></div>
           <div className="relative py-4">

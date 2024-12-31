@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section className="relative mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 md:mb-40">
+    <section className="relative mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 md:mt-20 md:mb-40">
       {/* Background Image */ }
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat rounded-md" style={ { backgroundImage: "url('/images/hero.webp')" } }></div>
       {/* Content */ }
@@ -20,7 +20,7 @@ const Hero = () => {
 
         {/* Right-side - text */ }
         <div dir="rtl" className="relative mb-auto max-w-lg md:max-w-none md:col-span-2 text-white p-8 shadow-md">
-          <div className='absolute -top-10 right-0 w-7/12'>
+          <div className='absolute top-1 right-3 w-6/12'>
             <Image
               src='/images/hero_subtitle.png'
               alt="Barista brewing coffee"
@@ -43,7 +43,6 @@ const Hero = () => {
               Savor the rich aroma of freshly brewed coffee, from bold espressos to smooth cappuccinos. Experience passion and tradition in every cup, crafted from the finest handpicked beans.
             </p>
           </div>
-
           <div className='relative z-10 mt-4 mr-4 mb-10'>
             <Link href="/menu" className='py-3 px-5 shadow rounded-md bg-white text-slate-700 border border-transparent hover:border-white hover:bg-gray-500 hover:text-white hover:shadow-lg transition duration-300'>
               Menu
