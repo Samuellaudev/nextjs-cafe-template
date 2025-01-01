@@ -11,12 +11,12 @@ export const navLinks = [
     icon: <IoHomeOutline className='text-black text-xl mx-2 group-hover:text-white' />
   },
   {
-    href: '/menu',
+    href: '/#coffee-menu',
     title: 'MENU',
     icon: <IoSearchCircleOutline className='text-black text-xl mx-2 group-hover:text-white' />
   },
   {
-    href: '/contact',
+    href: '/#contact',
     title: 'CONTACT',
     icon: <GoQuestion className='text-black text-xl mx-2 group-hover:text-white' />
   }
@@ -47,12 +47,12 @@ export const footerLinks = [
     ariaLabel: 'about',
   },
   {
-    href: '/menu',
+    href: '/#coffee-menu',
     title: 'MENU',
     ariaLabel: 'menu',
   },
   {
-    href: '/contact',
+    href: '/#contact',
     title: 'CONTACT',
     ariaLabel: 'contact',
   }

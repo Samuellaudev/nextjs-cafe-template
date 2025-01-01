@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section className="relative mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 md:mb-20 bg-white md:rounded-md">
+    <section id="contact" className="relative mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 md:mb-20 bg-white md:rounded-md">
       {/* Background Image */ }
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70 md:rounded-md" style={ { backgroundImage: "url('/images/greytone_1.jpg')" } }></div>
 
@@ -42,7 +42,7 @@ const Contact = () => {
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.7765994167903!2d-2.5860495999999995!3d51.462258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718f74c8b3cdcb%3A0x30946e4cbafaa74!2sGreytone%20Coffee!5e0!3m2!1sen!2s!4v1735673285084!5m2!1sen!2s"
             width="600"
-            height="360"
+            height="400"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"

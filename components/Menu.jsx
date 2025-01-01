@@ -4,7 +4,7 @@ const Menu = () => {
       {/* Background Image */ }
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70 md:rounded-md" style={ { backgroundImage: "url('/images/bg_menu.png')" } }></div>
       {/* Content */}
-      <div className="relative z-10 container px-4 py-10 md:py-20 mx-auto text-white border border-gray-300 p-6 rounded-md shadow-md">
+      <div className="relative z-10 container px-4 py-10 mx-auto text-white border border-gray-300 p-6 rounded-md shadow-md">
         <div className="relative lg:flex">
           <div className="hidden lg:block w-full my-auto">
             <div className="absolute left-16 w-[30rem] h-[30rem] bg-black/10 rounded-full shadow-md"></div>
