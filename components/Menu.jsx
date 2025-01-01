@@ -1,6 +1,6 @@
 const Menu = () => {
   return (
-    <section className="relative mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 md:mb-40 bg-white md:rounded-md">
+    <section id="coffee-menu" className="relative mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 md:mb-40 bg-white md:rounded-md">
       {/* Background Image */ }
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70 md:rounded-md" style={ { backgroundImage: "url('/images/bg_menu.png')" } }></div>
       {/* Content */}
