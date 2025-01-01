@@ -8,17 +8,17 @@ export const navLinks = [
   {
     href: '/',
     title: 'ABOUT',
-    icon: <IoHomeOutline className='text-black text-xl mx-2 group-hover:text-white' />
+    icon: <IoHomeOutline className='text-black text-xl mx-2' />
   },
   {
     href: '/#coffee-menu',
     title: 'MENU',
-    icon: <IoSearchCircleOutline className='text-black text-xl mx-2 group-hover:text-white' />
+    icon: <IoSearchCircleOutline className='text-black text-xl mx-2' />
   },
   {
     href: '/#contact',
     title: 'CONTACT',
-    icon: <GoQuestion className='text-black text-xl mx-2 group-hover:text-white' />
+    icon: <GoQuestion className='text-black text-xl mx-2' />
   }
 ]
 
