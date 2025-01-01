@@ -19,8 +19,8 @@ const Hero = () => {
         </video>
 
         {/* Right-side - text */ }
-        <div dir="rtl" className="relative ml-10 md:ml-0 mt-4 md:mt-0 mb-auto max-w-lg md:max-w-none md:col-span-2 text-white p-8 shadow-md">
-          <div className='hidden absolute top-1 right-3 w-6/12'>
+        <div dir="md:rtl" className="relative ml-10 md:ml-0 mt-4 md:mt-0 mb-auto max-w-lg md:max-w-none md:col-span-2 text-white p-8 shadow-md">
+          <div className='hidden md:block absolute top-1 right-3 w-6/12'>
             <Image
               src='/images/hero_subtitle.png'
               alt="Coffee, the Bristol Way"
