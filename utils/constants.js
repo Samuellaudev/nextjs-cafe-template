@@ -6,7 +6,7 @@ export const companyName = "Greytone"
 // Navbar
 export const navLinks = [
   {
-    href: '/',
+    href: '/about',
     title: 'ABOUT',
     icon: <IoHomeOutline className='text-black text-xl mx-2' />
   },
@@ -42,7 +42,7 @@ export const socialLinks = [
 
 export const footerLinks = [
   {
-    href: '/',
+    href: '/about',
     title: 'ABOUT',
     ariaLabel: 'about',
   },
