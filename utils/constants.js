@@ -16,7 +16,7 @@ export const navLinks = [
     icon: <IoSearchCircleOutline className='text-black text-xl mx-2' />
   },
   {
-    href: '/#contact',
+    href: '/#cafe-contact',
     title: 'CONTACT',
     icon: <GoQuestion className='text-black text-xl mx-2' />
   }
@@ -52,7 +52,7 @@ export const footerLinks = [
     ariaLabel: 'menu',
   },
   {
-    href: '/#contact',
+    href: '/#cafe-contact',
     title: 'CONTACT',
     ariaLabel: 'contact',
   }
