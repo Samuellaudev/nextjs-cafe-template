@@ -36,7 +36,7 @@ const MobileMenu = () => {
           <MobileMenuIcon />
         </Button>
       </SheetTrigger>
-      <SheetContent side='left'>
+      <SheetContent side='left' className='z-[1000]'>
         <SheetHeader>
           <SheetTitle className='mx-auto'>
             <Link className='flex flex-shrink-0 items-center' href='/'>
