@@ -13,7 +13,7 @@ const Menu = () => {
           <div className="absolute left-16 w-[30rem] h-[30rem] bg-black/10 rounded-full shadow-md"></div>
           <img
             className="relative w-[28rem] h-[28rem] xl:w-[30rem] xl:h-[30rem] object-cover rounded-full"
-            src="/images/Menu/coffee_Machine.webp"
+            src="/images/Menu/coffee_machine.webp"
             alt="Menu"
           />
         </div>
