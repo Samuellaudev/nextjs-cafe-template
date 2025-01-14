@@ -3,24 +3,23 @@ import AboutPageImage from "@/components/AboutPageImage";
 
 const AboutPage = () => {
   const images = [
-    '/images/About/barista_2.png',
-    '/images/About/coffee_1.jpg',
-    '/images/About/coffee_2.jpg',
-    '/images/About/coffee_Machine_1.jpg',
-    '/images/About/greytone_2.jpg',
-    '/images/About/greytone_3.jpg',
+    '/images/About/coffee_1.webp',
+    '/images/About/coffee_2.webp',
+    '/images/About/coffee_3.png',
+    '/images/About/coffee_4.webp',
+    '/images/About/coffee_5.webp',
   ]
 
   const content = () => (
     <div className="font-extralight">
       <p className="mb-4">
-        In 2021, Charlotte Fong and Ernest Ho left Hong Kong for Bristol with a shared dream: to create a space that celebrates coffee, art, and connection. After years of perfecting their craft and immersing themselves in the UK’s coffee culture, they brought this vision to life with Greytone.
+        In 2025, Samuel and Sophie embarked on a journey to bring their shared passion for innovation and connection to life. Inspired by their love for both coffee and technology, they founded Next.js Cafe, a space where creativity and quality blend seamlessly.
       </p>
       <p className="mb-4">
-        Nestled in St Paul’s, Greytone is more than a cafe—it’s a sanctuary designed to inspire. Every detail, from the carefully curated interior to the thoughtfully sourced beans roasted by Curve in Margate, reflects their passion for quality and creativity. Behind the counter gleams Bristol’s first Slayer machine, a symbol of their commitment to excellence, while Charlotte’s homemade cakes add a personal touch to the experience.
+        Situated in the heart of St Paul’s, Next.js Cafe isn’t just a coffee shop—it’s a hub of inspiration. The sleek, modern interior reflects their background in web development, while every cup of coffee, brewed with precision and care, showcases their commitment to excellence. They partner with renowned roasters like Curve in Margate to source the finest beans, ensuring every sip is a celebration of flavor.
       </p>
       <p className="mb-4">
-        For Charlotte and Ernest, Greytone is about more than coffee. It’s a place to foster connections, create moments of calm, and share their love for the art of brewing. As they welcome guests into their dream, one cup at a time, they’re building not just a cafe but a community rooted in passion and purpose.
+        At the heart of the cafe is a dedication to community and collaboration. Samuel’s expertise in crafting exceptional brews pairs perfectly with Sophie’s eye for design and hospitality, creating a space where people can relax, connect, and ignite new ideas. Whether enjoying a perfectly pulled espresso or taking part in one of their creative events, visitors are invited to experience the fusion of coffee culture and cutting-edge innovation that makes Next.js Cafe unique.
       </p>
     </div>
   )
@@ -32,7 +31,7 @@ const AboutPage = () => {
           Our Story
         </h2>
         <Image
-          src='/images/About/founder.jpeg'
+          src='/images/About/founder.jpg'
           alt='About Image'
           width={ 1120 }
           height={ 630 }
