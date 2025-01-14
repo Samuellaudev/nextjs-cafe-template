@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from '@/assets/images/logo.jpg';
+import logo from '@/assets/images/logo.png';
 import { socialLinks, companyName, footerLinks } from '@/utils/constants';
 
 const Footer = () => {

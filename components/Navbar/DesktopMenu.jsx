@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import logo from '@/assets/images/logo.jpg';
+import logo from '@/assets/images/logo.png';
 import clsx from 'clsx';
 import { navLinks } from '@/utils/constants';
 
@@ -16,7 +16,7 @@ const DesktopMenu = () => {
   return (
     <div className='flex flex-1 md:justify-between'>
       <Link className='flex flex-shrink-0 items-center' href='/'>
-        <Image className='w-16 rounded-full' src={ logo } alt='Greytone Coffee' />
+        <Image className='w-16 rounded-full' src={ logo } alt='Next.js Coffee' />
       </Link>
       <div className='hidden md:ml-6 md:block my-auto'>
         <div className='flex space-x-6'>

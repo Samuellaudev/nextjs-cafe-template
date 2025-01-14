@@ -1,7 +1,7 @@
 import { IoHomeOutline, IoSearchCircleOutline } from "react-icons/io5";
 import { GoQuestion } from "react-icons/go";
 
-export const companyName = "Greytone"
+export const companyName = "Next.js Cafe"
 
 // Navbar
 export const navLinks = [

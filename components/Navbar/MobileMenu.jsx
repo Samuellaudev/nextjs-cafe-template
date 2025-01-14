@@ -13,7 +13,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 import { Separator } from "@/components/ui/separator"
-import logo from '@/assets/images/logo.jpg';
+import logo from '@/assets/images/logo.png';
 
 const MobileMenu = () => {
   const linkClasses = clsx(

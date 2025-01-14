@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 export const metadata = {
-  title: "Greytone Coffee",
+  title: "Next.js Coffee",
   description: "The best speciality coffee in Bristol",
 };
 
