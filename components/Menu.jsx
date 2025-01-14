@@ -4,7 +4,7 @@ const Menu = () => {
   return (
     <ParallaxEffect
       backgroundImageClassName='absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70 md:rounded-md'
-      backgroundImageLocation="url('/images/bg_menu.png')"
+      backgroundImageLocation="url('/images/Menu/bg_menu.webp')"
       contentClassName="relative z-10 container px-4 py-10 mx-auto text-white border border-gray-300 p-6 rounded-md shadow-md"
       sectionId='coffee-menu'
     >
@@ -13,24 +13,27 @@ const Menu = () => {
           <div className="absolute left-16 w-[30rem] h-[30rem] bg-black/10 rounded-full shadow-md"></div>
           <img
             className="relative w-[28rem] h-[28rem] xl:w-[30rem] xl:h-[30rem] object-cover rounded-full"
-            src="/images/coffee_Machine_2.jpg"
+            src="/images/Menu/coffee_Machine.webp"
             alt="Menu"
           />
         </div>
-        {/* Right-side: menu */}
-        <div className="w-full space-y-6 px-4">
-          <h1 className="text-2xl lg:text-3xl font-semibold text-gray-800 uppercase">
-            Menu
-          </h1>
-          { menuItems.map(({ name, price }, index) => (
-            <div key={ index }>
-              <div className="flex mt-2 md:mt-0 justify-between text-gray-700">
-                <div className="font-medium md:text-lg uppercase">{ name }</div>
-                <p className="">{ price }</p>
+        {/* Right-side: menu */ }
+        <div className="relative w-full">
+          <div className="absolute inset-0 bg-black/40 md:bg-black/50 rounded-md"></div>
+          <div className="relative space-y-6 text-white p-6 px-8">
+            <h1 className="text-2xl lg:text-3xl font-semibold uppercase">
+              Menu
+            </h1>
+            { menuItems.map(({ name, price }, index) => (
+              <div key={ index }>
+                <div className="flex mt-2 md:mt-0 justify-between">
+                  <div className="font-medium md:text-lg uppercase">{ name }</div>
+                  <p className="">{ price }</p>
+                </div>
+                <div className="mt-2 w-full h-[0.5px] bg-gray-500/70"></div>
               </div>
-              <div className="mt-2 w-full h-[0.5px] bg-gray-500/70"></div>
-            </div>
-          )) }
+            )) }
+          </div>
         </div>
       </div>
     </ParallaxEffect>
