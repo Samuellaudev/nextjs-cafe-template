@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="container px-6 py-8 mx-auto">
         <div className="flex flex-col items-center text-center p-6 border-2 border-gray-200 border-b-0 rounded-md rounded-br-none rounded-bl-none">
           <Link href='/' className="cursor-pointer mb-6">
-            <Image className='w-20 rounded-full' src={ logo } alt='Greytone Coffee' />
+            <Image className='w-20 rounded-full' src={ logo } alt='Next.js Coffee' />
           </Link>
           <div className="flex flex-wrap justify-center -mx-4">
             { footerLinks.map((link, index) => (

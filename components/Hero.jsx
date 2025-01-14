@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <ParallaxEffect
       backgroundImageClassName='absolute hidden md:block inset-0 bg-cover bg-center bg-no-repeat md:rounded-md'
-      backgroundImageLocation="url('/images/hero.webp')"
+      backgroundImageLocation="url('/images/bg_hero.webp')"
       contentClassName="relative z-10 grid grid-cols-1 md:grid-cols-3 md:items-center md:gap-8 border border-gray-300 p-6 rounded-md shadow-md"
       sectionId='cafe-hero'
     >
