@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <ParallaxEffect
       backgroundImageClassName='absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70 md:rounded-md'
-      backgroundImageLocation="url('/images/greytone_1.jpg')"
+      backgroundImageLocation="url('/images/cafe_address.jpg')"
       contentClassName="relative z-10 container px-6 py-10 mx-auto text-white border border-gray-300 p-6 rounded-md shadow-md"
       sectionId='cafe-contact'
     >
@@ -19,8 +19,8 @@ const Contact = () => {
             <div>
               <h2 className="text-lg font-medium">Visit Us</h2>
               <address className="mt-2 not-italic text-sm leading-6">
-                Unit A, Dean Street Works,<br />
-                13-19 Dean St, Bristol BS2 8SF
+                150-152 West St, Bedminster,<br />
+                Bristol BS3 3LYBristol BS3 3LY
               </address>
             </div>
             <div>
@@ -45,14 +45,14 @@ const Contact = () => {
         {/* Right-side: Google Map */ }
         <div className="overflow-hidden rounded-lg lg:col-span-1 h-96 lg:h-auto">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.7765994167903!2d-2.5860495999999995!3d51.462258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718f74c8b3cdcb%3A0x30946e4cbafaa74!2sGreytone%20Coffee!5e0!3m2!1sen!2s!4v1735673285084!5m2!1sen!2s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.208512099444!2d-2.6093555923993064!3d51.435514140461315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718c2e2b89e0a7%3A0xe9c0e052f7871d8f!2sCafe%2C%20150-152%20West%20St%2C%20Bedminster%2C%20Bristol%20BS3%203LY!5e0!3m2!1szh-TW!2suk!4v1736881060529!5m2!1szh-TW!2suk"
             width="600"
             height="400"
             style={ { border: 0 } }
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Greytone Coffee Location"
+            title="Next.js Coffee Location"
           ></iframe>
         </div>
       </div>
